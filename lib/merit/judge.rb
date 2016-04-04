@@ -63,7 +63,7 @@ module Merit
     end
 
     def rule_object
-      BaseTargetFinder.find(@rule, @action)
+      TargetFinder.find(@rule, @action)
     end
 
     def rule_applies?
